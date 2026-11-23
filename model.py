@@ -11,8 +11,8 @@ def pump_capacity(capacity_m3s, operation_factor):
 
 
 def vulnerable_population(elderly_count, children_count):
-    # TODO: calculate the combined population.
-    return None
+    # Elderly and children are separate age groups in this demo.
+    return elderly_count + children_count
 
 
 if __name__ == "__main__":
