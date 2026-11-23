@@ -2,8 +2,8 @@
 
 
 def pump_capacity(capacity_m3s, operation_factor):
-    # TODO: calculate available pumping capacity.
-    return None
+    # Available capacity = rated capacity * operating factor.
+    return capacity_m3s * operation_factor
 
 
 # The following function is maintained independently.
